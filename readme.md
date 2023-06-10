@@ -39,7 +39,7 @@ The solution is compatible with modern web browsers, including but not limited t
 
 You can also view and interact with the Drag and Drop Example on GitHub Pages.
 
-**Link:** [Drag and Drop Example - GitHub Pages](https://your-username.github.io/drag-and-drop-example)
+**Link:** [Drag and Drop Example - GitHub Pages](https://aulth.github.io/graydot/)
 
 The GitHub Pages version provides an easy way to access and test the solution without the need to download or clone the repository.
 
