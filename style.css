@@ -1,0 +1,59 @@
+.container {
+    /* Container styles */
+    width: 100%; /* Set the width to 100% of the parent element */
+    max-width: 400px; /* Set the maximum width to 400px */
+    height: 300px; /* Set the height to 300px */
+    border: 1px solid #ccc; /* Add a 1px solid border with color #ccc */
+    padding: 10px; /* Add 10px of padding */
+    float: left; /* Float the container to the left */
+}
+
+.item {
+    /* Item styles */
+    background-color: #f9f9f9; /* Set the background color to #f9f9f9 */
+    border: 1px solid #ccc; /* Add a 1px solid border with color #ccc */
+    padding: 10px; /* Add 10px of padding */
+    margin-bottom: 10px; /* Add 10px of bottom margin */
+    cursor: move; /* Change the cursor to a move cursor */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for background-color */
+    color: #333; /* Set the text color to #333 */
+    font-family: Arial, sans-serif; /* Set the font family to Arial, sans-serif */
+}
+
+.item:hover {
+    /* Hover styles */
+    background-color: #e0e0e0; /* Change the background color to #e0e0e0 on hover */
+}
+
+.success-message {
+    /* Success message styles */
+    color: green; /* Set the text color to green */
+    margin-top: 10px; /* Add 10px of top margin */
+}
+
+.reset-button {
+    /* Reset button styles */
+    margin-top: 10px; /* Add 10px of top margin */
+    padding: 5px 10px; /* Add 5px of top and bottom padding, 10px of left and right padding */
+    border: none; /* Remove the border */
+    background-color: #f1f1f1; /* Set the background color to #f1f1f1 */
+    color: #333; /* Set the text color to #333 */
+    cursor: pointer; /* Change the cursor to a pointer cursor */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for background-color */
+    font-family: Arial, sans-serif; /* Set the font family to Arial, sans-serif */
+}
+
+.reset-button:hover {
+    /* Hover styles for reset button */
+    background-color: #e0e0e0; /* Change the background color to #e0e0e0 on hover */
+}
+
+@media screen and (max-width: 600px) {
+    /* Media query for screens with a maximum width of 600px */
+    .container {
+        /* Override container styles */
+        width: 100%; /* Set the width to 100% */
+        max-width: none; /* Remove the maximum width */
+        float: none; /* Remove the float */
+    }
+}
